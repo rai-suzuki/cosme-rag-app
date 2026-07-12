@@ -1,0 +1,15 @@
+# 仮想環境
+.venv/
+env/
+venv/
+
+# Pythonのキャッシュ
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mac特有のファイル
+.DS_Store
+
+# 環境変数など（APIキーを書いたファイルがあれば）
+.env.ipynb_checkpoints/
