@@ -13,3 +13,4 @@ __pycache__/
 
 # 環境変数など（APIキーを書いたファイルがあれば）
 .env.ipynb_checkpoints/
+**/.ipynb_checkpoints/
