@@ -6,7 +6,6 @@ on:
     branches:
       - coszou  # mainブランチに「git push」された時に起動
 
-二通りの環境変数設定:
 env:
   AWS_REGION: ap-northeast-1                   # 東京リージョン
   ECR_REPOSITORY: cosme-rag-app-repo            # 先ほど作った倉庫の名前
