@@ -4,7 +4,7 @@ name: Deploy to Amazon ECR
 on:
   push:
     branches:
-      - coszou  # mainブランチに「git push」された時に起動
+      - main
 
 env:
   AWS_REGION: ap-northeast-1                   # 東京リージョン
