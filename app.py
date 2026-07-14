@@ -9,7 +9,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 
 # 1. APIキーの設定
-os.environ["OPENAI_API_KEY"] = "YOUR_KEY"
+# os.environ["OPENAI_API_KEY"] = "YOUR_KEY"
 
 # 2. データの読み込みとデータベース構築
 @st.cache_resource
